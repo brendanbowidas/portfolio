@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+
 }
 
 p {
@@ -22,8 +23,10 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #C6491a;
 }
+
+
 
 h1,
 h2,
@@ -34,6 +37,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color:#242729;
 }
 
 hr.star-light,
@@ -81,8 +85,11 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #18bc9c;
+    color: #FDFFE3;
+
+    background: #8E4423;
+
+
 }
 
 header .container {
@@ -151,6 +158,8 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: #FDFFE3;
+
 }
 
 .navbar a:focus {
@@ -170,6 +179,41 @@ header .intro-text .skills {
     border: 0;
 }
 
+.navbar-default{
+   background-color:#242729;
+
+
+}
+
+.navbar-default .navbar-brand {
+    color:#FDFFE3;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color:#C6491a;
+}
+
+ .navbar-default .navbar-toggle .icon-bar {
+    
+    background-color:#FDFFE3;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color:#242729;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color:#C6491a; 
+
+    background-color: transparent;
+}
+
+.nav .navbar-default .navbar-fixed-top .navbar-shrink >li.active {
+    background-color: transparent
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FDFFE3;
+}
 section {
     padding: 100px 0;
 }
@@ -203,6 +247,10 @@ section.success a.active {
     }
 }
 
+#portfolio {
+    background-color:#e6e3bb;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -220,7 +268,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(142,68,35,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -403,6 +451,7 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: #FDFFE3;
 }
 
 .portfolio-modal .modal-content h2 {
