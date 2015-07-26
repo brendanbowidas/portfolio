@@ -487,6 +487,7 @@ footer .footer-below {
     height: auto;
     z-index: 2;
     opacity: 1;
+    -webkit-transition: all .5s;
     transition: all .5s;
     padding: 2%;
     box-sizing: border-box;
@@ -553,4 +554,33 @@ footer .footer-below {
     left: 20%;
     width: 20%;
     opacity: 1;
+}
+/* Skills section */
+#jQuery {
+    position: relative;
+    margin-top: 10%;
+
+}
+
+#git {
+    margin-top: 5%;
+}
+
+#Sass {
+    margin-top:2.5%
+}
+
+#angular {
+    margin-top:8%
+}
+
+#html5 img {
+    max-height: 12em;
+    margin: 0 auto;
+
+}
+
+#css3 img {
+    max-height:12em;
+    margin:0 auto;
 }
