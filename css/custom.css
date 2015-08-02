@@ -218,10 +218,13 @@ section.success a.active {
     background: rgba(3, 169, 244, .9);
     -webkit-transition: all ease .5s;
     transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -moz-backface-visibility: hidden;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
+    -moz-backface-visibility: hidden;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
