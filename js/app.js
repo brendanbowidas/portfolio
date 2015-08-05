@@ -32,14 +32,14 @@ $('.navbar-collapse ul li a').click(function () {
 });
 
 
-// parralax scrolling effect for each section
-function scroller(section) {
+// parralax landing effect for each section
+function scroller(section, offset) {
     $(window).scroll(function () {
 
         var wScroll = $(this).scrollTop();
         var elements = section.find('*');
 
-        if (wScroll > section.offset().top - ($(window).height() / 1.2)) {
+        if (wScroll > section.offset().top - ($(window).height() / offset)) {
 
             elements.each(function (i) {
 
@@ -52,7 +52,8 @@ function scroller(section) {
     })
 };
 $(function () {
-    scroller($('#portfolio'));
-    scroller($('#my-skills'));
-    scroller($('#contact'));
+ scroller($('#portfolio'), 1.2);
+
+    scroller($('#my-skills'), 1.5);
+    scroller($('#contact'), 1.5);
 });
